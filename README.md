@@ -6,15 +6,15 @@ a 10-Bit binary input and producing a 5-Bit binary output. The output should
 be the integer value and if the input is not a prefect square, then the output
 should be the integer which is just less than the actual square root value.
 
-*Concepts of digital electronics used.
-*Proteus skills used.
+* Concepts of digital electronics used.
+* Proteus skills used.
 
 There were various constraints relating to the formation of circuit while considering the cost and also some specific components mentioned.
 The subcircuits of the circuit are as follows-
-*A 5 bit counter.
-*A 5 by 5 bit multiplier.
-*A 10 bit comparator.
-*A 5 bit register.
+* A 5 bit counter.
+* A 5 by 5 bit multiplier.
+* A 10 bit comparator.
+* A 5 bit register.
 
 The actual method which I followed was that we can start counting the values from 0 through the counter and then keep on squaring and checking if the square is less than the 10 bit given input as soon as the value gets equaled or surpasses it the counter stops and the register gives an output.
 I have used and indicating logic probe to show when the computation is completed i.e when that number changes to 1 from 0 then that means the computation is completed and the output of the register at that moment is the square root of the given input.
